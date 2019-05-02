@@ -1668,7 +1668,7 @@ var jQueryShim = require('./jQueryShim');
                 if (connection.webSocketServerUrl) {
                     url = connection.webSocketServerUrl;
                 } else {
-                    url = connection.wsProtocol + connection.host;
+                    url = connection.wsProtocol + connection.host + connection.url;
                 }
 
                 url += transportLogic.getUrl(connection, this.name, reconnecting);
