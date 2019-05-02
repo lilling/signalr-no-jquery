@@ -30,7 +30,7 @@
     }
   ],
   "main": "build/signalR.js",
-  "name": "signalr-no-jquery",
+  "name": "signalr-no-jquery-relative-path",
   "readme": "README.md",
   "repository": {
     "type": "git",
