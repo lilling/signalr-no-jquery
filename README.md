@@ -10,14 +10,14 @@ This package is not meant to be used with ASP.NET Core version of SignalR
 
 ### Usage
 
-npm i -D signalr-no-jquery
+npm i -D signalr-no-jquery-relative-path
 
 
 #### ES6 Loader
 
 
 ```
-import { hubConnection } from 'signalr-no-jquery';
+import { hubConnection } from 'signalr-no-jquery-relative-path';
 ```
 
 #### HTML
@@ -45,8 +45,11 @@ connection.start({ jsonp: true })
 Note: This is an object holding global settings and it's not the same as connection handle returned by hubConnection
 
 ```
-import { connection } from 'signalr-no-jquery';
+import { connection } from 'signalr-no-jquery-relative-path';
 ```
+
+
+#### Update 2/05/2019: adding the option to host's relative path.
 
 ### Problems
 
